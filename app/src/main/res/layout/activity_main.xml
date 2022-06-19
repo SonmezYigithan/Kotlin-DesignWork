@@ -20,7 +20,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageView"
         android:layout_width="414dp"
         android:layout_height="365dp"
@@ -29,14 +29,15 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Efes" />
+        app:srcCompat="@drawable/Efes"
+        app:shapeAppearanceOverlay="@style/RoundedSquare"/>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="25dp"
         android:fontFamily="@font/roboto_black"
         android:text="Ephesus Tour"
         android:textColor="@color/black"
@@ -65,7 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="54dp"
         android:fontFamily="@font/roboto_black"
         android:text="1000₺"
